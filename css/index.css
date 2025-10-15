@@ -7,7 +7,6 @@
 
 body {
     font-family: "Montserrat", sans-serif;
-    overflow-x: hidden;
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -16,12 +15,11 @@ body {
 .p_firstsection {
     position: relative;
     background-color: #1D1037;
-    min-height: 100vh;
+    max-height: 1352px;
     display: flex;
     align-items: center;
     padding: 4rem 8rem;
     max-width: 1920px;
-    margin: 0 auto;
 }
 
 .p_firstsection_headerfog {
@@ -30,16 +28,17 @@ body {
     left: 0;
     width: 100%;
     height: auto;
-    z-index: 1;
+    z-index: 2;
 }
 
 .p_firstsection_mainimg_phone {
     position: absolute;
-    right: 8%;
-    bottom: 0;
+    left: -104px;
+    top: 330px;
     height: 85%;
-    max-height: 800px;
-    z-index: 2;
+    width: 1090px;
+    height: 1034px;
+    z-index: 1;
 }
 
 .p_firstsection_leaf {
@@ -61,11 +60,12 @@ body {
 .p_firstsection_sidebar_content {
     position: relative;
     z-index: 3;
-    max-width: 600px;
-    margin-left: 8%;
+    max-width: 481px;
+    max-height: 444px;
+    margin-left: 1070px;
+    margin-top: 439px;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
 }
 
 .p_firstsection_title {
@@ -75,23 +75,37 @@ body {
 }
 
 .p_firstsection_subtitle {
-    font-size: 1.5rem;
-    color: #7C2D12;
+    background-color: #ffffff; /* Цвет фона */
+    border-radius: 5px; /* Закругление углов */
+    display: inline-block;
+    border: 3px solid #ffffff;
+    max-width: 226px;
+    max-height: 37px;
+    padding: 10px 18px;
+    color: #2E363E;
     font-weight: 500;
+    font-size: 11px;
+    text-align: center;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .p_firstsection_title h1 {
-    font-size: 3.5rem;
-    color: #1F2937;
-    font-weight: 700;
+    max-width: 481px;
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 500;
     line-height: 1.2;
+    margin: 0 0 24px 0; /* Отступ только снизу */
 }
 
 .p_firstsection_text {
-    font-size: 1.3rem;
-    color: #4B5563;
+    max-width: 481px;
+    font-size: 21px;
+    color: #ffffff;
     line-height: 1.6;
-    max-width: 500px;
+    margin: 0; /* Убрать все отступы */
 }
 
 .p_firstsection_btn {
@@ -116,7 +130,7 @@ body {
 
 .p_firstsection_bottomfog {
     position: absolute;
-    bottom: -150px;
+    top: 863px;
     left: 0;
     width: 100%;
     height: auto;
