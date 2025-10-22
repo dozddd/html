@@ -529,3 +529,18 @@ body {
     align-items: center;
     justify-content: center; /* Центрирование иконок */
 }
+
+.new_class{
+    position: absolute;
+    left:250px;
+    background-color: cadetblue;
+}
+.body_style{
+    background-color: aqua;
+    color:#276fcf;
+        
+}
+.featere_new{
+    background-color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
