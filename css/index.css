@@ -530,6 +530,7 @@ body {
     justify-content: center; /* Центрирование иконок */
 }
 
+<<<<<<< HEAD
 .body_style{
     background-color: #ffa5d2;
 }
@@ -643,4 +644,19 @@ body {
 
 .block {
     display: flex;
+=======
+.new_class{
+    position: absolute;
+    left:250px;
+    background-color: cadetblue;
+}
+.body_style{
+    background-color: aqua;
+    color:#276fcf;
+        
+}
+.featere_new{
+    background-color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> f327810dbeed02c478f1f587956ea1babfc461c0
 }
