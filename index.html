@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <link link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <section class="p_firstsection"> 
@@ -101,5 +101,33 @@
         
         <img src="img\white_fog4.png" class="p_thirdsection_bottomfog">
     </section>
+    
+    <!-- Кнопка регистрации -->
+    <input type="button" class="btn-reg" value="Регистрация">
+    
+    <!-- Модальное окно регистрации -->
+    <div class="reg-modal">
+        <div class="reg-modal__content">
+            <div class="reg-modal__header">
+                <h2>Давайте зарегистрируемся</h2>
+                <span class="reg-modal__close">×</span>
+            </div>
+            <div class="reg-modal__body">
+                <form>
+                    <input type="login" placeholder="login">
+                    <br>
+                    <input type="password" placeholder="password">
+                    <br>
+                    <input type="submit" value="Зарегистрироваться">
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <form action="#">
+        <input type="button" value="Сменить тему" class="my_btn">
+    </form>
+    
+    <script src="index.js"></script>
 </body>
 </html>
